@@ -1,0 +1,1 @@
+Minimal working example to reproduce a NoClassDefFoundError for an AWS Lambda function.
