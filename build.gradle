@@ -8,8 +8,9 @@ repositories {
 
 dependencies {
     compile(
+            [group: "com.amazonaws", name: "aws-java-sdk-dynamodb", version: "1.10.14"],
             [group: "com.amazonaws", name: "aws-lambda-java-core", version: "1.0.0"],
-            [group: "com.amazonaws", name: "aws-lambda-java-events", version: "1.1.0"]
+            [group: "com.amazonaws", name: "aws-lambda-java-events", version: "1.0.0"]
     )
 }
 
